@@ -20,4 +20,9 @@ hist(w)
 
 eye(4) % 4x4 'eye'dentity matrix
 
-% help function name
+% 'help' function name
+
+
+size(A)
+size(A,1)
+length(A)

@@ -26,3 +26,14 @@ eye(4) % 4x4 'eye'dentity matrix
 size(A)
 size(A,1)
 length(A)
+
+% load('filename') or load filename
+% who shows variables
+% whos gives a detailed view of the variables
+whos
+% clear variablename or clear (no variable name would clear all)
+% save hello.mat v would save the variable v into a file called hello.mat
+% save hello.txt v -ascii would save it in a text file in ascii format
+% A(row, column)
+% A([1 3], :) means to get the 1st and 3rd row, all columns
+% A(:,2) = [10; 11; 12] assigns the 10-12 column vector to the second column

@@ -32,6 +32,9 @@
     <Compile Include="greatest_common_divisor.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="least_common_multiple.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test_GreatestCommonDivisor.py">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="test_FibonacciLastDigit.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_LeastCommonMultiple.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="test_MaxPairwiseProduct.py">

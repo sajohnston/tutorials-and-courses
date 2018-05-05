@@ -26,8 +26,20 @@
     <Compile Include="fibonacci.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="fibonacci_last_digit.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="greatest_common_divisor.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_GreatestCommonDivisor.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="max_pairwise_prod_fast.py" />
     <Compile Include="test_Fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_FibonacciLastDigit.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="test_MaxPairwiseProduct.py">

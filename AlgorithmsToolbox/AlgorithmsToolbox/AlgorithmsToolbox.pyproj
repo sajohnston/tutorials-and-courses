@@ -23,13 +23,16 @@
   <ItemGroup>
     <Compile Include="AlgorithmsToolbox.py" />
     <Compile Include="aplusb.py" />
+    <Compile Include="fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="max_pairwise_prod_fast.py" />
+    <Compile Include="test_Fibonacci.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test_MaxPairwiseProduct.py">
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

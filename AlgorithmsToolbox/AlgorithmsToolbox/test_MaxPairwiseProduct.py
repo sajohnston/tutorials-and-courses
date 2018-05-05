@@ -43,5 +43,6 @@ class Test_MaxPairwiseProduct(unittest.TestCase):
         assert m.max_pairwise_product_fast(n, A) == 1
 
 
+
 if __name__ == '__main__':
     unittest.main()

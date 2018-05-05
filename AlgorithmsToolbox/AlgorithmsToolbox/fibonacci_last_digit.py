@@ -10,3 +10,8 @@ def get_fibonacci_last_digit(n):
         fibsLast.append(nextFibLast)
 
     return fibsLast[n]
+
+
+if __name__ == "__main__":
+    n = int(input())
+    print(get_fibonacci_last_digit(n))

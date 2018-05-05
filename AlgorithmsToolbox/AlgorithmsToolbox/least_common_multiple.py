@@ -1,4 +1,6 @@
 # Uses python3
+import sys
+import numpy
 
 # For the assignment, we're copying the function here rather than importing
 def gcd(a,b):
@@ -9,8 +11,8 @@ def gcd(a,b):
 
 def lcm(a, b):
     q = gcd(a, b)
-    m = (a*b) / q
-    return m
+    m = (a // q) * b
+    return int(m)
 
 if __name__ == "__main__":
     inp = sys.stdin.read()

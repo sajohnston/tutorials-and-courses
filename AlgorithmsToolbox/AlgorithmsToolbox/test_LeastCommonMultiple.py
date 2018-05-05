@@ -26,6 +26,14 @@ class Test_LeastCommonMultiple(unittest.TestCase):
         bOut = [2, 8, 9, 24, 500000000]
         for i in range(0, len(a)):
             assert l.lcm(a[i], bOut[i]) == bOut[i]
+
+    def test_large_input(self):
+        a = [226553150]
+        b = [1023473145]
+        out = [46374212988031350]
+        for i in range(0, len(a)):
+            m = l.lcm(a[i], b[i])
+            assert m == out[i]
         
 if __name__ == '__main__':
     unittest.main()

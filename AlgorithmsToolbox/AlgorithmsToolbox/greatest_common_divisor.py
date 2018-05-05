@@ -1,4 +1,5 @@
 # Uses python3
+import sys
 
 def gcd(a,b):
     if b == 0:

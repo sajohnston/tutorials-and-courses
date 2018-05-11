@@ -35,6 +35,12 @@
     <Compile Include="least_common_multiple.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="max_loot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="moneychange.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test_GreatestCommonDivisor.py">
       <SubType>Code</SubType>
     </Compile>
@@ -48,7 +54,13 @@
     <Compile Include="test_LeastCommonMultiple.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="test_MaxLoot.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test_MaxPairwiseProduct.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_MoneyChange.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

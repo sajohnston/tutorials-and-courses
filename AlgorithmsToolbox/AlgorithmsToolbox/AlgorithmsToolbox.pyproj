@@ -35,6 +35,9 @@
     <Compile Include="least_common_multiple.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="max_ad_revenue.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="max_loot.py">
       <SubType>Code</SubType>
     </Compile>
@@ -52,6 +55,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="test_LeastCommonMultiple.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_MaxAdRev.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="test_MaxLoot.py">

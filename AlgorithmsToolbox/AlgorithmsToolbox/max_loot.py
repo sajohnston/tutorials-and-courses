@@ -1,4 +1,5 @@
 # Uses python3
+import sys
 
 def max_loot(n, maxWeight, infoItems):
     bag_value = 0

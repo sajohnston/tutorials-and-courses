@@ -1,3 +1,6 @@
+# Uses python3
+
+import sys
 
 def max_ad_revenue(a, b):
     max_rev = 0
@@ -15,3 +18,9 @@ def max_ad_revenue(a, b):
         del b[ind_b]
 
     return max_rev
+
+if __name__ == "__main__":
+    n = input()
+    a = [int(x) for x in input().split()]
+    b = [int(x) for x in input().split()]
+    print(max_ad_revenue(a, b))
